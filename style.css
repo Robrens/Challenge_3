@@ -7,15 +7,30 @@ header {
     background-color: #eeeeee;
 
 }
-header h1{
+h1{
+    width: 30%;
 	margin-left: 10%;
-}
-nav
+    display: inline-block;
 
-.section1 {
+}
+header nav {
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+    display: inline-block;
+
+}
+header nav ul li{
+display: inline-block;
+padding: 1em;
+}
+header nav ul li:last-child{
+
+}
+section.section1 {
     background-image: url(images/banner.png);
     background-size: cover;
-    background-color: #27AE61;
+    background-color: #27AE61;,
     height: 35%;
 
 }
