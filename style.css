@@ -1,23 +1,40 @@
 body {
-    background-image: url(images/banner.png);
-}
+
+    }
 
 header {
-    height: 101px;
+    height: 4%;
+    background-color: #eeeeee;
+
 }
+header h1{
+	margin-left: 10%;
+}
+nav
 
 .section1 {
-    height: 828px;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-color: #27AE61;
+    height: 35%;
+
+}
+.section1 p{
+	width: 1000px;
+	margin: auto;
+
+
 }
 
 .section2 {
-    height: 616px;
+    height: 26%;
 }
 
 .section3 {
-    height: 601px;
+    height: 25%;
+    background-color: #27AE61;
 }
 
 footer {
-    height: 213px;
+    height: 10%;
 }
