@@ -1,0 +1,23 @@
+body {
+    background-image: url(images/banner.png);
+}
+
+header {
+    height: 101px;
+}
+
+.section1 {
+    height: 828px;
+}
+
+.section2 {
+    height: 616px;
+}
+
+.section3 {
+    height: 601px;
+}
+
+footer {
+    height: 213px;
+}
