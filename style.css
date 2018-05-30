@@ -89,7 +89,7 @@ section.section1 {
 }
 
 .section1 p {
-    width: 80%;
+
     margin: auto;
     margin-bottom: 5%;
     text-align: center;
@@ -102,17 +102,20 @@ section.section1 {
     margin-bottom: 2%;
 }
 
-.section1>input[type="button"] {
-    width: 15%;
+.section1 article a {
+    padding: 1% 4%;
     text-align: center;
     margin-left: 42%;
     background-color: #2b3f48;
     border: none;
     border-radius: 10px;
-    height: 50px;
     color: white;
     margin-bottom: 7%;
     text-transform: uppercase;
+}
+
+.section1 article {
+    width: 1000px;
 }
 
 .section1 .imgs {
@@ -133,7 +136,7 @@ section.section2 {
 }
 
 .section2 p {
-    width: 80%;
+    width: 1000px;
     margin: auto;
     margin-bottom: 5%;
     text-align: center;
@@ -147,7 +150,7 @@ section.section2 {
     margin-top: 7%;
 }
 
-.section2>input[type="button"] {
+.section2>a {
     width: 15%;
     text-align: center;
     margin-left: 42%;
@@ -168,7 +171,7 @@ section.section2 {
 }
 
 .section3 p {
-    width: 80%;
+    width: 1000px;
     margin: auto;
     margin-bottom: 5%;
     text-align: center;
@@ -184,7 +187,7 @@ section.section2 {
     color: white;
 }
 
-.section3>input[type="button"] {
+.section3>a {
     width: 15%;
     text-align: center;
     margin-left: 42%;
