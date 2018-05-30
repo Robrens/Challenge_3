@@ -1,5 +1,31 @@
-body {}
+body {
+    background-color: #eeeeee;
+}
+article a {
+    padding: 2% 5%;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+section article {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
 
+article p {
+    line-height: 2em;
+    padding-bottom: 8%;
+}
+article p:first-of-type{
+    font-size: 1.4em;
+}
+section{
+    width: 100%;
+    padding-bottom: 7%;
+
+}
 /*---------------HEADER--------------------------------------*/
 
 header, section, footer {
@@ -17,17 +43,21 @@ body header {
     padding: 2% 0%;
 }
 
+
 h1 {
-    width: 29%;
-    margin-left: 10%;
+    width: 38%;
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
 }
 
+header {
+    height: 4%;
+    width: 1000px;
+    margin: auto;
+}
+
 header nav {
-    width: 50%;
-    margin-right: 10%;
     text-align: right;
     display: inline-block;
 }
@@ -36,27 +66,6 @@ header nav ul li {
     display: inline-block;
     padding: 1em;
     text-transform: uppercase;
-}
-
-
-header {
-    height: 4%;
-    background-color: #eeeeee;
-}
-
-h1 {
-    width: 29%;
-    margin-left: 10%;
-    display: inline-block;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-header nav {
-    width: 50%;
-    margin-right: 10%;
-    text-align: right;
-    display: inline-block;
 }
 
 header nav ul li {
@@ -67,6 +76,7 @@ header nav ul li {
 a {
     text-decoration: none;
     color: #2B3F48;
+    font-size: 0.9em;
 }
 
 header nav ul li a:hover {
@@ -77,6 +87,7 @@ header nav ul li a:active{
     color: #27AE61;
 }
 
+
 /*-----------------section1----------------------------*/
 
 section.section1 {
@@ -85,14 +96,6 @@ section.section1 {
     background-size: cover;
     background-color: #27AE61;
     height: 35%;
-    width: 100%;
-}
-
-.section1 p {
-
-    margin: auto;
-    margin-bottom: 5%;
-    text-align: center;
 }
 
 .section1 h2 {
@@ -103,29 +106,17 @@ section.section1 {
 }
 
 .section1 article a {
-    padding: 1% 4%;
-    text-align: center;
-    margin-left: 42%;
     background-color: #2b3f48;
-    border: none;
-    border-radius: 10px;
     color: white;
-    margin-bottom: 7%;
-    text-transform: uppercase;
-}
-
-.section1 article {
-    width: 1000px;
 }
 
 .section1 .imgs {
-    /* margin-left: 38%; */
     text-align: center;
 }
 
 .section1 .imgs img {
     border-radius: 50%;
-    width: 10%;
+    width: 14%;
     padding: 5% 2%;
 }
 
@@ -138,7 +129,6 @@ section.section2 {
 .section2 p {
     width: 1000px;
     margin: auto;
-    margin-bottom: 5%;
     text-align: center;
 }
 
@@ -149,18 +139,10 @@ section.section2 {
     margin-bottom: 2%;
     margin-top: 7%;
 }
-
-.section2>a {
-    width: 15%;
-    text-align: center;
-    margin-left: 42%;
+.section2 article a{
+    margin: auto;
     background-color: #27AE61;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
     color: white;
-    margin-bottom: 7%;
-    text-transform: uppercase;
 }
 
 /*-----------------section3----------------------------*/
@@ -173,7 +155,6 @@ section.section2 {
 .section3 p {
     width: 1000px;
     margin: auto;
-    margin-bottom: 5%;
     text-align: center;
     color: white;
 }
@@ -187,42 +168,33 @@ section.section2 {
     color: white;
 }
 
-.section3>a {
-    width: 15%;
-    text-align: center;
-    margin-left: 42%;
+.section3 article a{
+    margin: auto;
     background-color: white;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
     color: #27AE61;
-    margin-bottom: 7%;
-    text-transform: uppercase;
 }
 
-/*-----------------footer----------------------------*/
+/*-----------footer----------------------------*/
 
 footer {
     height: 10%;
     text-transform: uppercase;
 }
 
-footer nav {
-    width: 80%;
+
+footer ul {
+    width: 1000px;
+    text-align: center;
     margin: auto;
 }
 
-footer nav ul {
-    text-align: center;
-}
-
-footer nav ul li {
+footer ul li {
     display: inline-block;
     padding: 10% 1%;
     font-size: 0.7em;
     word-spacing: 0.5em
 
 }
-footer nav ul li span {
+footer ul li span {
     margin-left: 2em;
 }
